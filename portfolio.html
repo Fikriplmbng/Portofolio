@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Fikriplmbng</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Fikri<span>plmbng</span></div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="prestasi.html">Prestasi</a></li> <li><a href="portfolio.html">Portofolio</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+    <section>
+        <h1>Portofolio <span>Kuliah</span></h1>
+        <p>Kumpulan tugas besar, Praktikum, dan eksperimen pribadi.</p>
+
+        <div class="carousel-container">
+            
+            <button id="prevBtn" class="nav-btn">❮</button>
+
+            <div class="carousel-viewport">
+                <div class="carousel-track">
+                    
+                    <div class="card carousel-card">
+                        <img src="../img/laptop.webp" alt="Review Asus Vivobook e1404fa" class="cert-img">
+                        <h3>Review Laptop</h3>
+                        <p><strong>Matkul:</strong> Multimedia</p>
+                        <p>Konten review Laptop Asus Vivobook e1404fa.</p>
+                    </div>
+
+                    <div class="card carousel-card">
+                        <img src="../img/xiaomi.jpg" alt="Review Xiaomi 14T" class="cert-img">
+                        <h3>Review Xiaomi 14T</h3>
+                        <p><strong>Matkul:</strong> Multimedia</p>
+                        <p>Konten Review Handphone Xiaomi 14T (Flagship Killer).</p>
+                    </div>
+
+                    <div class="card carousel-card">
+                        <img src="../img/web.png" alt="Website Portofolio" class="cert-img">
+                        <h3>Web Portfolio</h3>
+                        <p><strong>Matkul:</strong> Desain Web</p>
+                        <p>Membuat website bertema portfolio pribadi menggunakan teknologi HTML5, CSS3, dan JS.</p>
+                    </div>
+
+                    <div class="card carousel-card">
+                        <img src="../img/imk.png" alt="Website Sistem Manajemen Tugas" class="cert-img">
+                        <h3>Website Manajemen Tugas</h3>
+                        <p><strong>Matkul:</strong> IMK</p>
+                        <p>Membuat website untuk manajemen tugas dan forum diskusi.</p>
+                    </div>
+
+                    <div class="card carousel-card">
+                        <h3>Game Sederhana Java</h3>
+                        <p><strong>Matkul:</strong> PBO</p>
+                        <p>Game tebak angka berbasis CLI menggunakan konsep OOP Java.</p>
+                    </div>
+
+                </div>
+            </div>
+            <button id="nextBtn" class="nav-btn">❯</button>
+        </div>
+           <div id="imageModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="imgPreview">
+                <div id="caption"></div>
+            </div>
+    </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Fikriplmbng. All Rights Reserved.</p>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>
