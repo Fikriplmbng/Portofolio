@@ -128,7 +128,7 @@ if (track && nextBtn && prevBtn) {
 
         const lastCard = track.lastElementChild;
         const cardWidth = lastCard.getBoundingClientRect().width;
-        const currentGap = getGap(); // Hitung gap otomatis
+        const currentGap = getGap(); 
         const slideAmount = cardWidth + currentGap;
 
         track.style.transition = "none";
@@ -273,3 +273,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 });
+
