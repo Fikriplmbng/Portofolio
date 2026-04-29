@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             if (isValid) {
-                alert('Terima kasih! Pesan Anda telah terkirim (Yang baca Gay).');
+                alert('Terima kasih! Jika ingin menghubungi silahkan hubungi lewat Whatsapp, atau email ke palembangfikri0@gmail.com,karena Form ini belum berfungsi sebagaimna mestinya.');
                 contactForm.reset();
             }
         });
